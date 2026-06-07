@@ -1,75 +1,89 @@
-// simple calculator
-// let n2=0;
-
-// let operator="/";
-
-// if (operator ==="+") {
-
-//     console.log(n1+n2);
-// }
-// else if (operat
-// let n1=3;or ==="-") {
-
-//     console.log(n1-n2);
-// }
-// else if (operator ==="*") {
-
-//     console.log(n1*n2);
-// }
-// else if (operator ==="/") {
-    
-//     if (n2 === 0) {
-//         console.log("n2 cannot be zero");
-//     }
-//     else {
-//         console.log(n1/n2);
+// // Even or odd
+// const oe = (num) => {
+//     if (num % 2 == 0) {
+//         return "Even";
+//     } else {
+//         return "Odd";
 //     }
 // }
-// else{
-//     console.log("Invalid operator");
+
+// console.log(oe(3));
+
+//Result evlauator
+// const findMax = (num1, num2, num3) => {
+//     if (num1 >= num2 && num1 >= num3) {
+//         return num1;
+//     } else if (num2 >= num1 && num2 >= num3) {
+//         return num2;
+//     } else {
+//         return num3;
+//     }
 // }
 
-//Marks System
-let marks=70;
-let bonus=6; 
+// console.log(findMax(10, 25, 15));
 
-marks += bonus;
+//accumulator
+// function sumToN(n) {
+//     let total = 0;
+//     for (let i = 1; i <= n; i++) {
+//         total = total + i;
+//     }
+//     return total;
+// }
 
-let Result = marks >= 50 ? "PASS" : "FAIL";
+//multiplication table
+// function printTable(num) {
+//     for (let i = 1; i <= 10; i++) {
+//         console.log(num + " x " + i + " = " + (num * i));
+//     }
+// }
 
-let grade;
+//digit counter
+// function countDigits(num) {
+//     if (num === 0) {
+//         return 1;
+//     }
+//     let count = 0;
+//     while (num > 0) {
+//         count++;
+//         num = Math.floor(num / 10);
+//     }
+//     return count;
+// }
 
-if(marks>=90){
-    grade="Grade A";
-}
-else if (marks>=70 && marks<=89){
-    grade="Grade B";
-}
-else if (marks>=50 && marks<=69){
-    grade="Grade C";
-}
-else {
-    grade="Grade F"
-}
+//num reverser
+// function reverseNumber(num) {
+//     let reversed = 0;
+//     while (num > 0) {
+//         let lastDigit = num % 10;
+//         reversed = (reversed * 10) + lastDigit;
+//         num = Math.floor(num / 10);
+//     }
+//     return reversed;
+// }
 
-let remark;
-switch (grade){
-    case "Grade A": 
-        remark="Excellent!";
-        break;
-    case "Grade B":
-        remark="Good";
-        break;
-    case "Grade C":
-        remark="Average";
-        break;
-    case "Grade F":
-        remark="Needs Improvement";
-        break;
-}
-console.log("Marks:",marks);
-console.log("Grade:",grade);
-console.log("Result:",Result);
-console.log("Remark:",remark);
+//Factorial
+// function factorial(num) {
+//     let result = 1;
+//     for (let i = 1; i <= num; i++) {
+//         result = result * i;
+//     }
+//     return result;
+// }
 
+// console.log(factorial(5));
 
+//prime validator
+// function isPrime(num) {
+//     if (num < 2) {
+//         return false;
+//     }
+//     for (let i = 2; i < num; i++) {
+//         if (num % i === 0) {
+//             return false;
+//         }
+//     }
+//     return true;
+// }
+
+// console.log(isPrime(7));
