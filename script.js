@@ -47,6 +47,5 @@
 
 
 // Using reduce()
-const num = [5, 10, 15, 20];
-const totalSum = num.reduce((sum, num) => sum + num, 0);
-console.log(totalSum);
+// const num = [5, 10, 15, 20];
+// const totalSum = num.reduce((sum, num) => sum + num, 0);
