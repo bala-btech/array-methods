@@ -1,6 +1,8 @@
-# ⚡ JavaScript Foundations: Arrays & Methods
+# ⚡ JavaScript Foundations: Arrays & Loop Iterations
 
-A beginner-friendly collection of essential JavaScript logic, tracking fundamental control structures, mutating versus non-mutating methods, and iterative callback functions.
+A beginner-friendly collection of essential JavaScript logic, tracking core array methods, mutating versus non-mutating operations, and traditional loop iteration strategies over collections.
+
+---
 
 ## 🚀 Solved Problems Reference
 
@@ -36,6 +38,21 @@ A versatile and destructive multi-tool capable of adding, removing, or replacing
 
 ### 11) Section Extractor — slice()
 A non-destructive subset collector that extracts a specified range of elements between a starting index and an optional ending index, rendering them into an isolated, independent array fragment.
+
+---
+
+## 🔄 Array Iteration Using Loops
+
+### 12) Standard Array Traversal — for Loop
+A classic index-driven iteration pattern that uses an incrementing counter bounded by `array.length` to step through and access each individual element sequentially.
+
+### 13) Clean Value Extractor — for...of Loop
+An ES6 collection iterator that discards manual index tracking completely, directly assigning each consecutive element's value to a local variable on every loop pass.
+
+### 14) Condition-Driven Traversal — while Loop
+A conditional looping mechanism that relies on an external tracker variable to step through array elements sequentially, executing only as long as the index constraint remains valid.
+
+---
 
 ## 🤝 Connect with Me
 
